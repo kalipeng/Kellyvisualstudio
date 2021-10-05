@@ -1,0 +1,24 @@
+html {
+    color:black;
+    font-size: 1 rem;
+    line-height: 1.5rem;
+    background-color: white;
+}
+
+main { 
+    width: 88vw;
+    margin:0 auto;
+    display: grid; 
+    grid-template-columns: 1fr 2fr;
+    grid-auto-rows: min-content;
+    grid-gap:2rem;
+
+}
+
+left-sidebar {  
+    grid-column: 1/2;
+}
+
+main-content{
+    grid-column: 2/3;
+}
