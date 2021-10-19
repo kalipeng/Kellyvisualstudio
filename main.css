@@ -7,7 +7,7 @@ html {
 
 main { 
     width: 88vw;
-    margin:0 auto;
+    margin: 0 100px 0 500px;
     display: grid; 
     grid-template-columns: 1fr 2fr;
     grid-auto-rows: min-content;
