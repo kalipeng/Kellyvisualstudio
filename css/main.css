@@ -12,9 +12,10 @@
    ========================================================================== */
 
 html {
-  color: #222;
-  font-size: 1em;
-  line-height: 1.4;
+  color:black;
+    font-size: 1 rem;
+    line-height: 1.5rem;
+    background-color: white;
 }
 
 /*
