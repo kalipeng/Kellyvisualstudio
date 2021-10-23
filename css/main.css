@@ -18,6 +18,23 @@ html {
     background-color: white;
 }
 
+main { 
+  width: 88vw;
+  margin: 0 100px 0 500px;
+  display: grid; 
+  grid-template-columns: 1fr 2fr;
+  grid-auto-rows: min-content;
+  grid-gap:2rem;
+
+}
+
+.left-sidebar {  
+  grid-column: 1/2;
+}
+
+.main-content{
+  grid-column: 2/3;
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
